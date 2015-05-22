@@ -15,7 +15,7 @@
             'Device UUID: ' + device.uuid + '<br />' +
             'Device Version: ' + device.version + '<br />';
         }
-        $('#testclick').click(function(){
+        document.getElementById('testclick').addEventListener('click',function(){
             window.open('http://google.com','_self','location=yes');
         });
     </script>
